@@ -44,6 +44,11 @@
 		eval ssh-agent  -s 
 		ssh-add ~/.ssh/id_rsa
 	entrar no github e adicionar a chave clicando na foto e settings
+	verificar chave 
+		git remote -v
+	mudar de https para ssh
+		git remote set-url origin git@gitgub.com:"seu user"/seu repositorio
+
 ultima aula
 https://www.youtube.com/watch?v=iRs6sQOPcvg&list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj&index=5
 	
