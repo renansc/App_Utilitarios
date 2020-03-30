@@ -37,6 +37,13 @@
 		git checkout -b "novoramo"
 	mistura ramos
 		git  merge nome do ramo que vai para o master
+#VALIDAÇÃO PELO SSH (USO DE SENHA AUTOMATICO PARA PUSH)
+	criar chave local
+		ssh-keygen -t rsa -b 4096 -c "email git"
+	executar
+		eval ssh-agent  -s 
+		ssh-add ~/.ssh/id_rsa
+	entrar no github e adicionar a chave clicando na foto e settings
 ultima aula
 https://www.youtube.com/watch?v=iRs6sQOPcvg&list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj&index=5
 	
