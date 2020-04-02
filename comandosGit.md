@@ -48,6 +48,7 @@
 		git remote -v
 	mudar de https para ssh
 		git remote set-url origin git@github.com:"seu user"/seu repositorio
+	instalar o xclip, copiar chave id_rsa.pub para o git
 
 ultima aula
 https://www.youtube.com/watch?v=iRs6sQOPcvg&list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj&index=5
