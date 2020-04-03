@@ -116,9 +116,9 @@ alias dependenciaCorrigir='sudo apt-get --fix-broken install'
 alias dependenciaLimpar='sudo apt-get autoremove'
 alias renconky='~/github/App_Conky/./conky_iniciar.sh'
 alias limpar='clear && ls'
-alias editar='sudo gedit $1'
-alias csJogar='~/github/App_Utilitarios/./jogarCs.sh'
-alias csServer='~/github/App_Utilitarios/./serverCs.sh'
+alias editar='sudo gedit $1 & exit'
+alias csJogar='~/github/App_Utilitarios/./jogarCs.sh & exit'
+alias csServer='~/github/App_Utilitarios/./serverCs.sh & exit'
 alias ppa-listar="grep -RoPish 'ppa.launchpad.net/[^/]+/[^/ ]+' /etc/apt | sort -u | sed -r 's/\.[^/]+\//:/'"
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
