@@ -12,7 +12,7 @@ REPOSITÓRIO JÁ EXISTENTE
 
 # VERIFICAÇÃO
 ---
-### verificar na ramificaçãoA
+### verificar na ramificação
 `git status`
 ###verifica com hash do do container
 `git log  --oneline  --graph  --all`	
@@ -32,12 +32,11 @@ MOVIMENTAÇÕES NO CONTAINER
 #### envia para container sem usar add 
 `git commit -am "comentario"`
 
-#MOVIMENTAÇÕES PARA O REPOSITÓRIO
+# MOVIMENTAÇÕES PARA REPOSITÓRIO
 ---
 ### envia para o github
-`git push` pede usuario e senha depois
-
-#CONTROLE DE VERSOES
+`git push` pede usuário e senha depois
+CONTROLE DE VERSÕES
 ---
 ### visualizar versão atual 
 `git branch`
