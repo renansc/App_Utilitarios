@@ -1,4 +1,5 @@
-# CONFIGURAÇÃO ---
+# CONFIGURAÇÃO
+---
 ##seta usuario
 
 		git config --global user.name
