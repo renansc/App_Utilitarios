@@ -36,6 +36,7 @@ MOVIMENTAÇÕES NO CONTAINER
 ---
 ### envia para o github
 `git push` pede usuário e senha depois
+
 CONTROLE DE VERSÕES
 ---
 ### visualizar versão atual 
@@ -45,14 +46,14 @@ CONTROLE DE VERSÕES
 ### volta para ultima versão  ou ramo
 `git checkout master`
 
-#CONTROLE DE RAMIFICAÇÕES
+CONTROLE DE RAMIFICAÇÕES
 ---
 ### cria novo ramo
 `git checkout -b "novoramo"`
 ### mistura ramos
 `git  merge nome do ramo que vai para o master`
 
-#VALIDAÇÃO PELO SSH (USO DE SENHA AUTOMATICO PARA PUSH)
+VALIDAÇÃO PELO SSH (USO DE SENHA AUTOMATICO PARA PUSH)
 ---
 ### criar chave local
 `ssh-keygen -t rsa -b 4096 -c "email git"`
