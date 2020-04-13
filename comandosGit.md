@@ -19,11 +19,11 @@ REPOSITÓRIO JÁ EXISTENTE
 ###  verifica modificações antes do container
 `git diff`	
 
-#MOVIMENTAÇÕES  NO PROJETO
+# MOVIMENTAÇÕES NO PROJETO
 ---
 `git add arquivo`  ou  `git add  .`  para todos
 
-#MOVIMENTAÇÕES PARA O CONTAINER
+MOVIMENTAÇÕES NO CONTAINER
 ---
 ### remove do container
 `git reset HEAD`
