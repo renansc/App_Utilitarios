@@ -10,9 +10,9 @@
 ### copiando  para localmente
 `git clone url`
 
-#VERIFICAÇÃO
+# VERIFICAÇÃO
 ---
-### verifica na branch
+### verificar na ramificaçãoA
 `git status`
 ###verifica com hash do do container
 `git log  --oneline  --graph  --all`	
