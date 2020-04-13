@@ -4,10 +4,12 @@
 `git config --global user.name`
 ###  set email
 `git config --global user.email`
+
 #REPOSITÓRIO JÁ EXISTENTE
 ---
 ### copiando  para localmente
 `git clone url`
+
 #VERIFICAÇÃO
 ---
 ### verifica na branch
@@ -16,9 +18,11 @@
 `git log  --oneline  --graph  --all`	
 ###  verifica modificações antes do container
 `git diff`	
+
 #MOVIMENTAÇÕES  NO PROJETO
 ---
 `git add arquivo`  ou  `git add  .`  para todos
+
 #MOVIMENTAÇÕES PARA O CONTAINER
 ---
 ### remove do container
@@ -27,23 +31,28 @@
 `git commit -m "comentario"`
 #### envia para container sem usar add 
 `git commit -am "comentario"`
+
 #MOVIMENTAÇÕES PARA O REPOSITÓRIO
 ---
 ### envia para o github
 `git push` pede usuario e senha depois
-#CONTROLE DE VERSOES___
+
+#CONTROLE DE VERSOES
+---
 ### visualizar versão atual 
 `git branch`
 ### visualiza outra versão
 `git checkout -b hash do commit`
 ### volta para ultima versão  ou ramo
 `git checkout master`
+
 #CONTROLE DE RAMIFICAÇÕES
 ---
 ### cria novo ramo
 `git checkout -b "novoramo"`
 ### mistura ramos
 `git  merge nome do ramo que vai para o master`
+
 #VALIDAÇÃO PELO SSH (USO DE SENHA AUTOMATICO PARA PUSH)
 ---
 ### criar chave local
