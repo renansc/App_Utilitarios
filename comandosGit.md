@@ -65,4 +65,5 @@ VALIDAÇÃO PELO SSH (USO DE SENHA AUTOMATICO PARA PUSH)
 ### mudar de https para ssh
 `git remote set-url origin git@github.com:"seu user"/seu repositorio`
 ### instalar o xclip, copiar chave id_rsa.pub para o git
-
+`sudo apt install xclip`
+no diretório .ssh usar xclip e copiar o id_rsa.pub
