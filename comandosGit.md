@@ -1,4 +1,4 @@
- #   CONFIGURAÇÕES---
+#CONFIGURAÇ
 ##seta usuario	
 		git config --global user.name
 ##seta email
