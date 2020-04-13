@@ -4,8 +4,7 @@
 `git config --global user.name`
 ###  set email
 `git config --global user.email`
-
-#REPOSITÓRIO JÁ EXISTENTE
+REPOSITÓRIO JÁ EXISTENTE
 ---
 ### copiando  para localmente
 `git clone url`
