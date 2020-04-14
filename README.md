@@ -13,3 +13,7 @@ mp4converter.sh| conversor direto para mp4
 musicplayer.sh| player de musica para usar no terminal(linux)
 serverCs.sh|arranca o executavel com wine para criar uma lan no cs
 videoTv.sh | converte vídeo para o formato ideal pre programado
+# TAREFAS
+---
+- [ ] terminar o musicplayer
+- [ ] melhorar interface
